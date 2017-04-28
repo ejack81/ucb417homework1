@@ -1,0 +1,176 @@
+body{
+    font-family: Arial, serif
+}
+
+header {
+ margin: 0 auto;
+ width: 960px;
+ background-color: #ffffff ;
+ border-color: #cccccc ;
+}
+
+li {
+   display: inline;
+   margin: 5px 30px;
+   color: #777777 ;
+}
+
+h1 {
+   float: left;
+   margin: 0px;
+   background-color: #4aaaa5 ;
+   color: white;
+   padding: 10px;
+}
+
+h2{
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+    color: #4aaaa5 ;
+}
+
+h1, h2, h3 {
+   font-family: serif;
+
+}
+
+h3{
+    border-bottom: 2px solid grey;
+    color: teal;
+}
+
+ul {
+   float: right;
+}
+
+article{
+    border-top: 2px grey solid;
+    clear: both;
+    overflow: auto;
+    background-color: #ccc;
+    background-image: url(playstation-pattern.png);
+}
+
+div.index{
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    width: 55%;
+    padding: 20px;
+    margin: 50px;
+    border-style: solid;
+   border-color: grey;
+
+}
+div.box
+{
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    width: 55%;
+    padding: 20px;
+    margin: 50px;
+    border-style: solid;
+   border-color: grey;    
+}
+
+div.portfolio{
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    width: 55%;
+    padding: 20px;
+    margin: 50px;
+    border-style: solid;
+   border-color: grey;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin: 10px;
+}
+
+div.contact{}
+
+img{
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 230px;
+}
+
+
+p{
+    display: block;
+    line-height: 2em;
+    color: #777777
+}
+
+aside {
+   background-color: white;
+   width: 15%;
+   display: inline-block;
+   vertical-align: top;
+   padding: 20px;
+   margin: 50px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: grey;
+   border-image: initial;
+}
+
+aside.img{
+    height: 50px;
+    width: 50px;
+}
+footer {
+   background-color: #666666 ;
+   padding-bottom: 30px;
+   border-top: 10px solid #4aaaa5 ;
+   text-align: center;
+   font-size: 10px;
+}
+
+.contact{
+    height: 50px;
+    width: 50px;
+}
+
+.contact2{
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    width: 55%;
+    padding: 20px;
+    margin: 50px;
+    border-style: solid;
+   border-color: grey;
+}
+
+div.picture{
+    border: 1px solid red;
+    width: 200px;
+    padding: 0px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    height: 50px;
+}
+
+div.picture div{
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+div.pic1{
+    background-image: url(choc.JPG) ;
+    background-size: cover;
+}
+
+div.pic2{
+    background-image: ;
+}
